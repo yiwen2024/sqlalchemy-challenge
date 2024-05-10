@@ -32,7 +32,8 @@ Section 1 Precipitation Analysis instructions:
 
 ![alt text](Output/prcp.png)
 
-![alt text](<summary statistics.png>)
+![summary statistics](https://github.com/yiwen2024/sqlalchemy-challenge/assets/159670322/be701b8a-3258-4978-92bc-2c26af498c2b)
+
 
 Section 2 Station Analysis instruction: 
 
@@ -58,7 +59,7 @@ Section 2 Station Analysis instruction:
 ![alt text](Output/tobs.png)
 
 Close the session at the end of analysis
-![alt text](<close session.png>)
+![close session](https://github.com/yiwen2024/sqlalchemy-challenge/assets/159670322/a18bc56a-a42f-4c2b-8148-3fe335cb2434)
 
 Part 2: Design a Climate App
 A Flask API was designed based on the queries that was just developed. The routes were created by using Flask as follows:
@@ -66,7 +67,7 @@ A Flask API was designed based on the queries that was just developed. The route
 1. Start at the homepage.
 
 List all the available routes.
-![alt text](<all routes.png>)
+![all routes](https://github.com/yiwen2024/sqlalchemy-challenge/assets/159670322/8e8be824-0465-41db-90d2-f0bc2b4d569d)
 
 2. /api/v1.0/precipitation
 
@@ -74,19 +75,19 @@ Convert the query results from the precipitation analysis to a dictionary using 
 
 Return the JSON representation of the dictionary.
 
-![alt text](precipitation.png)
+![precipitation](https://github.com/yiwen2024/sqlalchemy-challenge/assets/159670322/fba2330c-bd76-493e-8b66-cedf011b1519)
 
 3. /api/v1.0/stations
 
 Return a JSON list of stations from the dataset.
-![alt text](stations-1.png)
+![stations](https://github.com/yiwen2024/sqlalchemy-challenge/assets/159670322/b53f94cf-864d-4a89-9c87-97ac06290920)
 
 4. /api/v1.0/tobs
-
+5. 
 Query the dates and temperature observations of the most-active station for the previous year of data.
 
 Return a JSON list of temperature observations for the previous year.
-![alt text](tobs.png)
+![tobs_1](https://github.com/yiwen2024/sqlalchemy-challenge/assets/159670322/b5667b10-7f0a-4def-9392-b8e8040c6639)
 
 5. /api/v1.0/<start> and /api/v1.0/<start>/<end>
 
@@ -97,4 +98,4 @@ For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater 
 For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 
 Use the Flask jsonify function to convert the API data to a valid JSON response object.
-![alt text](<TMIN_TAMX_ TAVG_for start_end_date.png>)
+![TMIN_TAMX_ TAVG_for start_end_date](https://github.com/yiwen2024/sqlalchemy-challenge/assets/159670322/82fd1ee4-d1b3-45ed-84f5-9522ddaa2a29)
